@@ -1,0 +1,271 @@
+/*====================  
+Default css starts
+====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap");
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.site-section {
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0px;
+}
+
+.container::before,
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-25 {
+  width: 25%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.col-33 {
+  width: 33.33%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+  padding: 0px 15px;
+}
+
+.col-75 {
+  width: 75%;
+  float: left;
+  padding: 0px 15px;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*====================  
+Default css ends
+====================*/
+
+/*====================  
+Header css starts
+====================*/
+
+.top-menu {
+  background-color: #161312;
+}
+
+.top-menu a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.menu__left {
+  float: left;
+}
+
+.menu__right {
+  float: right;
+}
+
+.menu__text {
+  margin-right: 2rem;
+}
+
+.menu__text i {
+  color: red;
+  margin-right: 1.2rem;
+}
+
+.menu__right .fab {
+  color: white;
+}
+
+.site-logo {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.site-logo__img {
+  padding: 1.2rem 0rem;
+}
+
+.nav__item {
+  line-height: 6rem;
+  font-size: 1.4rem;
+  color: #505050;
+  padding: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav__item i {
+  color: #e41f05;
+}
+
+.nav__item--radius {
+  background-color: #e41f05;
+  border-radius: 3.2rem;
+  color: white;
+  padding: 1rem 2.5rem;
+}
+
+.hero {
+  background: url("../images/slider.jpg");
+  background-size: cover;
+  padding: 23rem 0rem;
+}
+
+.hero__text h4 {
+  font-size: 4.5rem;
+  color: #e41f05;
+  line-height: 6rem;
+}
+
+.hero__text h1 {
+  font-weight: bold;
+  font-size: 7.5rem;
+  line-height: 7.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.hero__text p {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.hero__text span {
+  display: inline-block;
+  background-color: #e41f05;
+  border-radius: 3.2rem;
+  color: white;
+  padding: 1rem 2.5rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+span.hero__text--color {
+  background-color: white;
+  color: #e41f05;
+}
+
+.count {
+  background: url(../images/image.jpg);
+  background-size: cover;
+}
+
+.group .fa,
+.group .fas {
+  font-size: 6rem;
+  color: #e41f05;
+}
+
+.group {
+  text-align: center;
+  margin: 3rem 0rem;
+}
+
+.group h1 {
+  font-size: 4.5rem;
+  line-height: 5rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 2rem;
+}
+
+.group p {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 500;
+  color: white;
+}
+
+.learning .title {
+  text-align: center;
+  padding: 5rem 0rem;
+}
+
+.title h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #212121;
+}
+
+.title p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.title span {
+  color: #e41f05;
+}
+
+.learning__box {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5rem;
+  margin-top: 3rem;
+  background-color: #5050501a;
+}
+
+.learning__box img {
+  margin-bottom: 2rem;
+}
+
+.learning__box h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #212121;
+}
+
+.learning__box p {
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #505050;
+}
+
+.fal {
+  font-size: 70px;
+}
